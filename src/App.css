@@ -6,7 +6,25 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav-bar a{
+  padding-left: 20px;
+  color: white; 
+  text-decoration: none;
+  font-size: large;
+}
 
+a {   
+  color: rgb(160, 184, 219);   
+}
+
+a:active {
+  color: rgb(14, 3, 54);
+}
+
+a:focus {
+  color:rgb(149, 149, 187);
+  outline: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
