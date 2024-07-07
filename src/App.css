@@ -12,7 +12,9 @@
   text-decoration: none;
   font-size: large;
 }
-
+.nav-1{
+ margin-right: 5%;
+}
 a {   
   color: rgb(160, 184, 219);   
 }
@@ -25,6 +27,13 @@ a:focus {
   color:rgb(149, 149, 187);
   outline: none;
 }
+.text input{
+  margin-top: 20px;
+  width: 20%;
+
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
