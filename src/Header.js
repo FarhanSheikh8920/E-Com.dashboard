@@ -6,7 +6,7 @@ function Header() {
 const history=useNavigate();
   const logout =() => {
   localStorage.clear();
-  history('/register')
+  history('/login')
 
 }
 
