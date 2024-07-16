@@ -7,13 +7,18 @@ const [Price,setprice]=useState("")
 const [file,setfile]=useState("")
 const [description,setdecription]=useState("")
    async function add(){
-        console.warn(name,Price,file,description);  
+        let item =(name,Price,file,description);  
         const formData= new FormData();
         formData.append("name",name);
         formData.append("price",Price);
         formData.append("file",file);
         formData.append("description",description);
-    let result = await fetch("")
+    let result = await fetch("http://localhost:8000/api/addproduct",{
+        method: 'POST',
+        body:formData
+        }  
+    ); 
+   alert("data has been saved")
     }
     
     
